@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Heritage Club</title>
+	<link rel="stylesheet" type="text/css" href="newheritage.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		function form(){
+			alert("Message sent, Thank you for your response");
+		}
+	</script>
+	<div class="header">
+		<span>
+		    <img src="heritageimage.png">
+	    </span>
+	    <span class="buttons">
+	        <a href="#home"><button class="b1"><b>Home</b></button></a>
+		    <a href="#about"><button class="b1"><b>About</b></button></a>
+		    <button class="b1" data-toggle="modal" data-target="#event"><b>Events</button>	
+	    </span>
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-md-12">
+				    <div class="modal fade" id="event">
+					    <div class="modal-dialog modal-md modal-dialog-centered">
+						    <div class="modal-content">
+							    <div class="modal-header">
+							        <h3><b>UPCOMMING EVENTS</b></h3>
+						        </div>
+						        <div class="modal-body">
+						    	    Please <a href="#">Click here</a> to Know more about Upcomming Events
+							   </div>
+						    <div class="modal-footer">
+							    <input class="btn btn-primary" value="Close" data-dismiss="modal">
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="box1" id="home">
+		<h1 style="font-size: 60px;">Welcome to Heritage Club VIT</h1>
+	</div>
+	<div class="box2" id="about">
+		<h2>ABOUT</h2>
+		<div class="matter">
+			<p>
+				<br><br>
+				"India is the cradle of the human race, the birthplace of human speech, the mother of history, the grandmother of legend, and the great-grandmother of tradition. Our most valuable and most instructive materials in the history of man are treasured up in India only."<br>
+                True to that, India, from time immemorial, a focal point of various religions, multitudinous cultures and admirable grandeur of architecture that has gracefully amalgamated into our rich heritage that we boast of today. Now with the ushering in of the twenty- first century we have forayed into the arena of science, technology, and research. India has also been immensely successful in keeping on par with the world and even taking the driver's seat on a number of occasions. We at the heritage club wish to coalesce these two aspects. Numerous travelers who put afoot on the Indian soil heaped praise pertaining to its abounding architecture. Even the stringent of the British never failed to express their awe. We wish to delve deep into those praises. Our objectives include conducting experiments and tests to unearth the science behind those marvels. We as a club conduct various cultural programs, guest lectures, interactive sessions and hands on workshops to wrest the love for history and heritage. Our club is a rendezvous of like minded enthusiasts who wish to explore our scientific past and unravel the mysteries that the rocks and bricks have concealed beneath them for centuries.
+			</p>
+		</div>
+	</div>
+	<div class="box3">
+		<h2>Contact us</h2>
+		<form onsubmit="return form()">
+		<div class="contact-form">
+			<div class="txtb">
+				<label>Full Name :</label>
+			    <input type="text" name="" placeholder="Enter Your Name" id="name" required="This feild is required">
+			</div>
+			<div class="txtb">
+				<label>Email:</label>
+			    <input type="text" name="" value="" placeholder="Enter Your Email" id="email" required="This feild is required">
+			</div>
+			<div class="txtb">
+				<label>Phone Number:</label>
+			    <input type="text" name="" value="" placeholder="Enter Your Phone Number" id="ph" required="This feild is required">
+			</div>
+			<div class="txtb">
+				<label>Message:</label>
+			    <textarea name="" value="" placeholder="Enter your Message" id="message" required="This feild is required"></textarea>
+			</div>
+			<input type="submit" class="btn" name="submit" value="submit" style="background-color: black;font-weight: bold;color: white;">
+		</div>
+	</form>
+	</div>
+
+	<div class="footer">
+		<ul>
+			<li><a href="https://www.facebook.com/heritageclubvit" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://www.linkedin.com/company/heritage-club-vit/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://www.instagram.com/heritageclubvit/?fbclid=IwAR1aBn_Q_Ey-HRbCU_wJXzZiZyA2NHN326Uo3x4CykYE0u3_V-09KqLuZjc" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://twitter.com/explore"><i class="fa fa-twitter"></i></a></li>
+		</ul>
+		<h3 style="text-align: center;color: white;font-size: 16px;">Social media Contacts</h3>
+	</div>
+
+
+
+</body>
+</html>
